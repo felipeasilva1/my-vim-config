@@ -39,6 +39,7 @@ set hlsearch
 set incsearch
 set showmatch
 set lazyredraw
+set clipboard=unnamedplus  " needs vim-gtk installed (+clipboard flag)
 
 let mapleader = ","
 
