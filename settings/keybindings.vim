@@ -1,3 +1,9 @@
+" GENERAL KEYBINDINGS
+"
+"
+noremap <leader>h :new<CR>
+noremap <leader>v :vnew<CR>
+
 " NERDTREE KEYBINDINGS
 "
 "
