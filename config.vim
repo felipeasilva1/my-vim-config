@@ -15,6 +15,7 @@ Plugin 'powerline/powerline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'kien/ctrlp.vim'
 
 " COLOR SCHEMES
 Plugin 'dracula/vim'
