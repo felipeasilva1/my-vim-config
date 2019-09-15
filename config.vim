@@ -1,4 +1,5 @@
 " VUNDLE REQUIRED CONFIGURATIONS AND PLUGINS
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/vundle-plugins/Vundle.vim
@@ -10,6 +11,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 " PLUGINS
 Plugin 'scrooloose/nerdtree'
+Plugin 'powerline/powerline'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs'
 
 " COLOR SCHEMES
 Plugin 'dracula/vim'
@@ -22,12 +27,10 @@ filetype plugin indent on
 
 colorscheme dracula
 
-set tabstop=2
 set shiftwidth=2
 set noexpandtab
 
 set number
-set showcmd
 set wildmenu
 set hlsearch
 set incsearch
@@ -35,3 +38,6 @@ set showmatch
 set lazyredraw
 
 let mapleader = ","
+
+source ~/.vim/settings/plugins.vim
+source ~/.vim/settings/keybindings.vim
