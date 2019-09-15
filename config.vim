@@ -1,32 +1,25 @@
-" VUNDLE REQUIRED CONFIGURATIONS AND PLUGINS
+" VIM-PLUG REQUIRED CONFIGURATIONS AND PLUGINS
 
-set nocompatible
-filetype off
-set rtp+=~/.vim/vundle-plugins/Vundle.vim
+source ~/.vim/include/vim-plug-install.vim
 
-call vundle#begin('~/.vim/vundle-plugins')
-
-" VUNDLE ITSELF
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/plugged')
 
 " PLUGINS
-Plugin 'scrooloose/nerdtree'
-Plugin 'powerline/powerline'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'kien/ctrlp.vim'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-commentary'
+Plug 'scrooloose/nerdtree'
+Plug 'powerline/powerline'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+Plug 'kien/ctrlp.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-commentary'
 
 " COLOR SCHEMES
-Plugin 'dracula/vim'
+Plug 'dracula/vim'
 
-call vundle#end()
+call plug#end()
 
-filetype plugin indent on
-
-" END VUNDLE REQUIRED CONFIGURATIONS AND PLUGINS
+" END VIM-PLUG REQUIRED CONFIGURATIONS AND PLUGINS
 
 colorscheme dracula
 
