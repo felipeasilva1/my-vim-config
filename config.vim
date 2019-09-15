@@ -25,6 +25,7 @@ call plug#end()
 set termguicolors
 colorscheme base16-dracula
 
+set tabstop=2
 set shiftwidth=2
 set noexpandtab
 
