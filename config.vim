@@ -16,12 +16,14 @@ Plug 'tpope/vim-commentary'
 
 " COLOR SCHEMES
 Plug 'dracula/vim'
+Plug 'chriskempson/base16-vim'
 
 call plug#end()
 
 " END VIM-PLUG REQUIRED CONFIGURATIONS AND PLUGINS
 
-colorscheme dracula
+set termguicolors
+colorscheme base16-dracula
 
 set shiftwidth=2
 set noexpandtab
