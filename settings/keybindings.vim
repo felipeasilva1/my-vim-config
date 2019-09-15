@@ -1,8 +1,10 @@
 " GENERAL KEYBINDINGS
 "
 "
-noremap <leader>h :new<CR>
-noremap <leader>v :vnew<CR>
+nnoremap <leader>h :new<CR>
+nnoremap <leader>v :vnew<CR>
+nnoremap <leader>t :tabedit<CR>
+nnoremap <leader><space> :nohlsearch<CR>
 
 " NERDTREE KEYBINDINGS
 "
