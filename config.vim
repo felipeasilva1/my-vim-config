@@ -17,6 +17,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-commentary'
 
 " COLOR SCHEMES
 Plugin 'dracula/vim'
