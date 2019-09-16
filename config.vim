@@ -7,12 +7,12 @@ call plug#begin('~/.vim/plugged')
 " PLUGINS
 Plug 'scrooloose/nerdtree'
 Plug 'powerline/powerline'
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'jiangmiao/auto-pairs'
+Plug 'airblade/vim-gitgutter'
 
 " COLOR SCHEMES
 Plug 'dracula/vim'
