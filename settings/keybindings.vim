@@ -6,6 +6,14 @@ nnoremap <leader>v :vnew<CR>
 nnoremap <leader>t :tabedit<CR>
 nnoremap <leader><space> :nohlsearch<CR>
 
+" SPLIT NAVIGATION KEYBINDINGS
+"
+"
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
 " NERDTREE KEYBINDINGS
 "
 "
