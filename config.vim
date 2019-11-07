@@ -44,5 +44,10 @@ set clipboard=unnamedplus  " needs vim-gtk installed (+clipboard flag)
 
 let mapleader = ","
 
+" GLOBAL AUTOCMD
+"
+"
+autocmd BufWritePre * %s/\s\+$//e  " remove trailing whitespaces on save
+
 source ~/.vim/settings/plugins.vim
 source ~/.vim/settings/keybindings.vim
