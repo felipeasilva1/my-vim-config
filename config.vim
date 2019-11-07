@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 
 " PLUGINS
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'powerline/powerline'
 Plug 'kien/ctrlp.vim'
 Plug 'terryma/vim-multiple-cursors'
