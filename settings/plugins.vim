@@ -32,3 +32,9 @@ let g:multi_cursor_exit_from_insert_mode = 1
 "
 let g:flake8_show_in_gutter=1
 let g:flake8_quickfix_height=5
+
+" SIMPLYFOLD SETTINGS
+"
+"
+let g:SimpylFold_docstring_preview=1
+let b:SimpylFold_fold_docstring=0
