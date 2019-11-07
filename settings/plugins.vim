@@ -26,3 +26,9 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:multi_cursor_use_default_mapping = 0
 let g:multi_cursor_exit_from_visual_mode = 1
 let g:multi_cursor_exit_from_insert_mode = 1
+
+" VIM-FLAKE8 SETTINGS
+"
+"
+let g:flake8_show_in_gutter=1
+let g:flake8_quickfix_height=5

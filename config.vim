@@ -13,6 +13,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
+Plug 'nvie/vim-flake8', { 'for': 'python' }
 
 " COLOR SCHEMES
 Plug 'dracula/vim'

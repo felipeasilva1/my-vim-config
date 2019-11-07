@@ -10,6 +10,8 @@ setlocal nofoldenable
 setlocal foldlevel=2
 setlocal foldlevelstart=0
 
+autocmd BufWritePost *.py call flake8#Flake8()
+
 " PYTHON SPECIFIC KEYBINDINGS
 "
 "
