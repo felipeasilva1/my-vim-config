@@ -54,11 +54,11 @@ And it's ready to go!
 ## Plugins being used
 
 [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree): File explorer
-[scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter): Fast comment multiple lines
 [powerline/powerline](https://github.com/powerline/powerline): Status bar
 [kien/ctrlp.vim](https://github.com/kien/ctrlp.vim): Fast fuzzy search for files
 [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): ST-like multiple cursors
 [tpope/vim-surround](https://github.com/tpope/vim-surround): smart word surrounder
+[tpope/vim-commentary](https://github.com/tpope/vim-commentary): comment multiple lines
 [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs): auto insert surrounding (complement `vim-surround`)
 [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter): git diff markers on tracked files
 
