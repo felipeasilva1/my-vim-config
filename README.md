@@ -53,27 +53,27 @@ And it's ready to go!
 
 ## Plugins being used
 
-[scrooloose/nerdtree](https://github.com/scrooloose/nerdtree): File explorer
+[scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) File explorer
 
-[powerline/powerline](https://github.com/powerline/powerline): Status bar
+[powerline/powerline](https://github.com/powerline/powerline) Status bar
 
-[kien/ctrlp.vim](https://github.com/kien/ctrlp.vim): Fast fuzzy search for files
+[kien/ctrlp.vim](https://github.com/kien/ctrlp.vim) Fast fuzzy search for files
 
-[terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors): ST-like multiple cursors
+[terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) ST-like multiple cursors
 
-[tpope/vim-surround](https://github.com/tpope/vim-surround): smart word surrounder
+[tpope/vim-surround](https://github.com/tpope/vim-surround) smart word surrounder
 
-[tpope/vim-commentary](https://github.com/tpope/vim-commentary): comment multiple lines
+[tpope/vim-commentary](https://github.com/tpope/vim-commentary) comment multiple lines
 
-[jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs): auto insert surrounding (complement `vim-surround`)
+[jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs) auto insert surrounding (complement `vim-surround`)
 
-[airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter): git diff markers on tracked files
+[airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter) git diff markers on tracked files
 
 ### python specific
 
-[nvie/vim-flake8](https://github.com/nvie/vim-flake8): pep8 check and lint for .py files
+[nvie/vim-flake8](https://github.com/nvie/vim-flake8) pep8 check and lint for .py files
 
-[tmhedberg/SimpylFold](https://github.com/tmhedberg/SimpylFold): python syntax code folding
+[tmhedberg/SimpylFold](https://github.com/tmhedberg/SimpylFold) python syntax code folding
 
 ## Color Schemes being used
 
