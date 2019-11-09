@@ -5,6 +5,7 @@ nnoremap <leader>h :new<CR>
 nnoremap <leader>v :vnew<CR>
 nnoremap <leader>t :tabedit<CR>
 nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <space> za
 
 " SPLIT NAVIGATION KEYBINDINGS
 "
