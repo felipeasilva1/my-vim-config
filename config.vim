@@ -18,7 +18,6 @@ Plug 'nvie/vim-flake8', { 'for': 'python' }
 Plug 'tmhedberg/SimpylFold', { 'for': 'python' }
 
 " COLOR SCHEMES
-Plug 'dracula/vim'
 Plug 'chriskempson/base16-vim'
 
 call plug#end()
