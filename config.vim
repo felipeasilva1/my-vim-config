@@ -24,6 +24,7 @@ call plug#end()
 " END VIM-PLUG REQUIRED CONFIGURATIONS AND PLUGINS
 
 set termguicolors
+let base16colorspace=256  " access colors present in 256 colorspace
 colorscheme base16-dracula
 
 set tabstop=2
