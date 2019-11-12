@@ -18,7 +18,9 @@ In Ubuntu >= 18.04.02 LTS
 
 For proper display of the colorscheme used in terminal vim sessions.
 
-Take a look at this: [aaron-williamson/base16-gnome-terminal](https://github.com/aaron-williamson/base16-gnome-terminal)
+Take a look at this: [aaron-williamson/base16-gnome-terminal](https://github.com/aaron-williamson/base16-gnome-terminal)  
+
+And this [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim)
 
 #### Source Code Pro Font
 
