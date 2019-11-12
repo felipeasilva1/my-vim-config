@@ -38,16 +38,20 @@ A little cleanup beforehand
 
 	$ cp -a .vim/ vim-bkp/
 	$ rm -rf .vim/
+	$ rm .vimrc
 
 Clone the repo
 
 	$ cd ~
 	$ git clone https://github.com/felipeasilva1/my-vim-config.git .vim
 
-Start `vim` and install the plugins for the first time
+Create a symlink to the **.vim/config.vim**
+
+	$ ln -s -f ~/.vim/config.vim ~/.vimrc
+
+Start `vim` and wait for the `vim-plug` to install itself and the configured plugins
 
 	$ vim
-	:PlugInstall
 
 And it's ready to go!
 
