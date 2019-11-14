@@ -9,4 +9,4 @@ setlocal nofoldenable
 setlocal foldlevel=2
 setlocal foldlevelstart=99
 
-autocmd BufWritePre * %s/\s\+$//e  " remove trailing whitespaces on save
+autocmd BufWritePre *.py %s/\s\+$//e  " remove trailing whitespaces on save
