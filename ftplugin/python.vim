@@ -10,7 +10,7 @@ setlocal foldlevel=2
 setlocal foldlevelstart=99
 
 " remove trailing whitespaces on save
-autocmd BufWritePre * %s/\s\+$//e
+autocmd BufWritePre *.py %s/\s\+$//e
 
 " python debugger snippet
 nnoremap <leader>dbg oimport pdb; pdb.set_trace()
